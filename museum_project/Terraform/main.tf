@@ -36,7 +36,7 @@ resource "aws_db_instance" "c14-ellie-bradley-museum_db" {
   db_name                   = var.DB_NAME
   identifier                = "c14-ellie-bradley-museum-db"
   engine                    = var.DB_ENGINE
-  engine_version            = "16.2"
+  engine_version            = "16.3"
   instance_class            = "db.t3.micro"
   publicly_accessible       = true
   performance_insights_enabled = false

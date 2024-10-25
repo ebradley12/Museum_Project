@@ -1,9 +1,14 @@
 activate_venv () {
     python3 -m venv .venv
-    source ./.venv/bin/activate
+    if [ -f ./.venv/bin/activate ]; then
+        echo "Activating new virtual environment..."
+        source ./.venv/bin/activate
+    else
+        echo "Error: Failed to create virtual environment."
+        exit 1
+    fi
 }
 
-# creates a venv if not creates, otherwise enable it
 activate () {
     if [[ $1 = "new" ]]; then
         echo "Deleting and reactivating virtual environment..."
@@ -14,10 +19,9 @@ activate () {
         echo "Activating existing virtual environment..."
         source ./.venv/bin/activate
     else
-        echo "Making venv and enabling"
+        echo "Creating and activating new venv..."
         activate_venv
     fi
 }
 
 activate
-
