@@ -1,0 +1,12 @@
+Invalid message: {"at": "2024-10-22T11:49:14.329289+01:00", "site": "2"} - Reason: Missing 'val' key
+Invalid message: {"at": "2024-10-22T11:49:55.334370+01:00", "site": "0", "val": 8} - Reason: Invalid 'val' value
+Invalid message: {"at": "2024-10-22T11:51:57.346739+01:00", "site": "ERR", "val": 2} - Reason: Exhibition not part of the project
+Invalid message: {"site": "1", "val": 3} - Reason: Missing 'at' key
+Invalid message: {"at": "2024-10-22T11:52:28.349938+01:00", "site": "1", "val": -1, "type": 4} - Reason: Invalid 'type' value when 'val' is -1 (must be 0 or 1)
+Invalid message: {"at": "2024-10-22T11:52:46.351960+01:00", "site": "10", "val": 1} - Reason: Exhibition not part of the project
+Invalid message: {"at": "2024-10-22T11:52:51.352499+01:00", "val": 4} - Reason: Missing 'site' key
+Invalid message: {"at": "2024-10-22T11:53:08.354859+01:00", "site": "11", "val": 1} - Reason: Exhibition not part of the project
+Invalid message: {"at": "2024-10-22T11:53:40.358939+01:00", "site": "2", "val": -1, "type": 4} - Reason: Invalid 'type' value when 'val' is -1 (must be 0 or 1)
+Invalid message: {"at": "2024-10-22T11:53:43.359403+01:00", "site": "5", "val": "ERR"} - Reason: Invalid 'val' value
+Invalid message: {"at": "2024-10-22T11:53:51.360648+01:00", "site": "3"} - Reason: Missing 'val' key
+Invalid message: {"at": "2024-10-22T11:54:37.367795+01:00", "val": 0} - Reason: Missing 'site' key
