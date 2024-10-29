@@ -1,6 +1,6 @@
 # Kafka ETL Pipeline
 
-This folder contains all the code, documentation, and resources required for the **Kafka-based ETL Pipeline** and **Museum Dashboard Design**.
+This repository contains all the code, documentation, and resources required for the **Kafka-based ETL Pipeline** and **Museum Dashboard Design**.
 
 ## Overview
 
